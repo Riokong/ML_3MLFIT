@@ -18,3 +18,13 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# Excluded scripts and config
+config/
+scripts/crab_opro.py
+scripts/crab_opro_change_start.py
+scripts/crab_opro_change_start_v2.py
+scripts/crab_opro_change_start_v3.py
+scripts/crab_opro_change_start_v4.py
+scripts/crab_opro_change_start_v5.py
+scripts/extract_crab_fit_training_data.py
