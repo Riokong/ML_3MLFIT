@@ -6,20 +6,12 @@ Fits a log-parabola gamma-ray spectrum to HAWC Crab Nebula data using [3ML](http
 
 ```
 ML_3MLFIT/
-├── scripts/
-│   ├── crab.py                        # Standard 3ML/ROOT fit, saves results
-│   ├── crab_opro.py                   # OPRO optimizer (early version)
-│   ├── crab_opro_change_start_v6.py   # OPRO optimizer (current version)
-│   ├── extract_crab_fit_training_data.py
-│   └── crab_opro_change_start_v[1-5].py  # Previous iterations
-├── data/
-│   ├── HAWC_9bin_507days_crab_data.hd5
-│   ├── HAWC_9bin_507days_crab_response.hd5
-│   └── crab_lp_public_results.fits    # Output from standard fit
-├── results/                           # Plots and logs (not tracked by git)
-└── config/
-    └── crab_fit.yml                   # Saved best-fit model
+└── scripts/
+    ├── crab.py                        # Standard 3ML/ROOT fit
+    └── crab_opro_change_start_v6.py   # OPRO LLM optimizer (current version)
 ```
+
+Data files, results, and config are not tracked by git.
 
 ## Method
 
